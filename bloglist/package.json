@@ -1,0 +1,12 @@
+{
+  "name": "bloglist",
+  "version": "1.0.0",
+  "description": "Bloglist: React (Vite) frontend + Express/Mongo backend in a single repository",
+  "private": true,
+  "scripts": {
+    "dev": "npm run dev --prefix client",
+    "build": "npm run build --prefix client",
+    "start": "npm run start --prefix server",
+    "start:test": "npm run start:test --prefix server"
+  }
+}
